@@ -74,7 +74,7 @@
             </fileset>
         </copy>
     </target>
-    <target name="clean">
+    <target name="clean" depends="init">
         <delete>
     	<fileset dir="${build.dir}">
 	        <include name="**/*.class"/>
