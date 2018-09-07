@@ -65,7 +65,7 @@
 		<pathelement
 			location="${ECLIPSE_HOME}/plugins/javax.mail_1.4.0.v201005080615.jar" />
 	</path>
-    <target name="init" depends="clean">
+    <target name="init">
         <mkdir dir="build/classes"/>
         <copy includeemptydirs="false" todir="build/classes">
             <fileset dir="src">
