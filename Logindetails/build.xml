@@ -231,15 +231,6 @@
 	<taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask"
 		classpathref="pmd2.classpath" />
 
-	<target name="initRpt">
-		<mkdir dir="${instrumented.dir}" />
-		<mkdir dir="${report.cobertura.dir}" />
-		<mkdir dir="${report.findbugs.dir}" />
-		<mkdir dir="${report.checkstyle.dir}" />
-		<mkdir dir="${coverage.xml.dir}" /> <!-- -->
-		<mkdir dir="${coverage.html.dir}" />
-	</target>
-
                	                <target name="compile-test">
                	                  <mkdir dir="${test.dir}"/>
                	                  <javac srcdir="${test.dir}" destdir="${test.dir}" debug="true" includes="${src.dir}" includeAntRuntime="false">
