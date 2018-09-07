@@ -51,7 +51,7 @@
 		<pathelement
 			location="${ECLIPSE_HOME}/plugins/javax.mail_1.4.0.v201005080615.jar" />
 	</path>
-    <target name="init" depends="clean">
+    <target name="init">
         <mkdir dir="build/classes"/>
         <copy includeemptydirs="false" todir="build/classes">
             <fileset dir="src">
@@ -60,16 +60,7 @@
             </fileset>
         </copy>
     </target>
-    <target name="init1">
-        <mkdir dir="build/classes"/>
-        <copy includeemptydirs="false" todir="build/classes">
-            <fileset dir="src">
-                <exclude name="**/*.launch"/>
-                <exclude name="**/*.java"/>
-            </fileset>
-        </copy>
-    </target>
-    <target name="clean">
+    <target name="clean" depends="init">
         <delete>
     	<fileset dir="${build.dir}">
 	        <include name="**/*.class"/>
