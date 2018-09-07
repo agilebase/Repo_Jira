@@ -25,20 +25,6 @@
 		<pathelement location="C:/apache-tomcat-7.0.70/lib/catalina.jar" />
 		<pathelement location="C:/apache-tomcat-7.0.70/lib/ecj-4.4.2.jar" />
 		<pathelement location="C:/apache-tomcat-7.0.70/lib/el-api.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/jasper-el.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/jasper.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/jsp-api.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/servlet-api.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/tomcat-api.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/tomcat-coyote.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/tomcat-dbcp.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/tomcat-i18n-es.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/tomcat-i18n-fr.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/tomcat-i18n-ja.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/tomcat-jdbc.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/tomcat-util.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/tomcat7-websocket.jar" />
-		<pathelement location="C:/apache-tomcat-7.0.70/lib/websocket-api.jar" />
 	</path>
 	<path id="Web App Libraries.libraryclasspath" />
 	<path id="EAR Libraries.libraryclasspath" />
