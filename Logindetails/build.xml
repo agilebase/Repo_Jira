@@ -74,6 +74,15 @@
             </fileset>
         </copy>
     </target>
+    <target name="init1">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
     <target name="clean">
         <delete>
     	<fileset dir="${build.dir}">
