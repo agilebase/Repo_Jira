@@ -44,11 +44,7 @@ public class infotest {
 		dt.setContactNo(contactNo);
 		Assert.assertEquals(contactNo,dt.getContactNo());
 	}
-	@Test
-	public void testgetbank() {
-		Assert.assertEquals(bank, dt.getBank());
-		
-	}
+	
 	
 	
 	
