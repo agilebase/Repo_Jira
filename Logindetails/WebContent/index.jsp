@@ -22,6 +22,7 @@
 </head>
 
 <body ng-controller="mainCtrl" class="container" ng-app="app">
+	<div class ="header"  ></div>
 <form>
 	<div>
 <div class="w3-container w3-black">
