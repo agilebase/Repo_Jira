@@ -12,6 +12,13 @@
 </head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+	<style>
+		.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+	</style>
 </head>
 
 <body ng-controller="mainCtrl" class="container" ng-app="app">
