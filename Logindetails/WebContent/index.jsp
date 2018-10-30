@@ -23,6 +23,7 @@
 
 <body ng-controller="mainCtrl" class="container" ng-app="app">
 <form>
+	<div>
 <div class="w3-container w3-black">
 <div class="row" style="background:black">
 <div class="col-sm-2">
@@ -104,6 +105,7 @@ style="margin-bottom: 20px;"/><br>
 	
 	<td><span class="fa fa-close" ng-click="delItem($index)"></span></td>
 	</tr>
+	</div>
 </form>
 </div>
 <script>
