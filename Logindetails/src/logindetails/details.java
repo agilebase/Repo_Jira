@@ -12,7 +12,13 @@ public String getName() {
 public void setName(String name) {
 	this.name = name;
 }
+public void setName1(String name) {
+	this.name = name;
+}
 public String getEmailId() {
+	return emailId;
+}
+	public String getEmailId1() {
 	return emailId;
 }
 public void setEmailId(String emailId) {
